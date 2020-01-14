@@ -1,7 +1,7 @@
 ---
 layout: page
-title: about
-subtitle: Just who the hell you think I am?
+title: measrainsey meng
+subtitle: (aka meas)
 permalink: /about/
 ---
 
