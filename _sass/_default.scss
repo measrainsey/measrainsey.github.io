@@ -166,12 +166,18 @@ strong {
     color: $iron;
 }
 
+.post-teaser__subtitle {
+    font-size: 16px;
+    color: $cloudy;
+}
+
 .post-teaser__date {
     font-size: 16px;
     float: right;
     vertical-align: middle;
     color: $cloudy;
 }
+
 
 .empty-post-list {
     font-size: 22px;

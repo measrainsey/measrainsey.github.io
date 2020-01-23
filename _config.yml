@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://measrainsey.com" # the base hostname & protocol for your site
 
 author:
-  fullname: Measrainsey (Meas)
+  fullname: Meas
 #   googleplus: https://www.google.com/+MotaquillahMaddane
   github: measrainsey
   twitter: measrainsey
@@ -25,3 +25,6 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+plugins:
+  - jemoji
