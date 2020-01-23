@@ -13,13 +13,17 @@ a {
     text-decoration: none;
 
     &:hover {
-
+    
     }
 }
 
 p {
     font-size: 16px;
     line-height: 20px;
+}
+
+p a:hover {
+ color: lightgray;   
 }
 
 img {
@@ -67,7 +71,7 @@ strong {
 /* =Header */
 .wrapper {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 30px auto;
 }
 
 .header {
@@ -121,8 +125,8 @@ strong {
 
 /* =Titles */
 .page-title {
-    margin-top:100px;
-    margin-bottom:125px;
+    margin-top:50px;
+    margin-bottom:50px;
     text-align: center;
 }
 
@@ -138,16 +142,27 @@ strong {
 }
 
 .post-title {
-    margin-bottom: 110px;
+    margin-bottom: 50px;
 }
 
 .post-title__text {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .post-title__subtitle {
     font-size: 20px;
 }
+
+.post-title__categories {
+    font-size: 15px;
+}
+
+.post-title__categories a:hover {
+    font-size: 15px;
+    color: lightgrey;
+}
+
+
 
 /* =Post teasers */
 
