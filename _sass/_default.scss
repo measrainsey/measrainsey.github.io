@@ -6,6 +6,14 @@ body {
     color: $iron;
 //    background-color: $dorian;
     background-color: #fff;
+//    font-weight: 200;
+    color:#111;
+    margin:30px auto;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    line-height:1.6;
+    font-size:1rem;
+    font-family:var(--sans-font);
 }
 
 a {
@@ -186,7 +194,7 @@ strong {
 }
 
 .post-teaser {
-    margin-bottom: 45px;
+    margin-bottom: 2px;
     font-weight: 700;
 }
 
@@ -196,8 +204,9 @@ strong {
 }
 
 .post-teaser__title:hover {
-    font-size: 18px;
-    color: $cloudy;
+    text-decoration: underline;
+//    font-size: 18px;
+//    color: $cloudy;
 }
 
 
