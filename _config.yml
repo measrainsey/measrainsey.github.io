@@ -1,17 +1,19 @@
 # Site settings
 title: Measrainsey Meng
 description: >
-  Measrainsey Meng | Environmental Engineering PhD Candidate
+  Personal site for Measrainsey Meng
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://measrainsey.com" # the base hostname & protocol for your site
 
 author:
   fullname: Meas
-#   googleplus: https://www.google.com/+MotaquillahMaddane
+#  googleplus: https://www.google.com/+MotaquillahMaddane
   github: measrainsey
   twitter: measrainsey
-  # disqus: your_disqus_forum_shortname
+  linkedin: measrainsey
+  email: measrainsey@gmail.com
+#   disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
