@@ -27,6 +27,6 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
-
+permalink: /:year/:month/:day/:title:output_ext
 plugins:
   - jemoji

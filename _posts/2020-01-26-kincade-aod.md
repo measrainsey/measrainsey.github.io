@@ -3,7 +3,7 @@ layout: post
 title:  "Visualizing the 2019 Kincade Fire"
 subtitle: "Using xarray and cartopy to analyze and plot netCDF files"
 date:   2020-01-26 19:00:00
-permalink: kincade-aod
+<!--permalink: kincade-aod-->
 categories: [climate, python]
 ---
 
