@@ -2,7 +2,7 @@
 layout: post
 title:  "Animated map of US nuclear generating capacity"
 subtitle: "Using D3.js to map nuclear power plants over the years"
-date:   2020-01-26 19:00:00
+date:   2020-01-26 16:00:00
 permalink: nuclear-map
 thumbnail: "https://raw.githubusercontent.com/measrainsey/nuclear-map/master/map-animation.gif"
 categories: [energy, python, d3js]
