@@ -1,0 +1,22 @@
+I"q<p>:computer: – The Python notebook and data file are available in this <a href="https://github.com/measrainsey/kincade-aod/">Github repository</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/measrainsey/kincade-aod/master/Kincade_AOD_2019-10-29.png" width="600" class="img-center" /></p>
+
+<p>I recently developed an interest in using Python to analyze satellite imagery and geospatial data (in environmental and earth science contexts). So, I’ve been going through a number of different workshops and tutorials that are publicly available on Github. One of them is a workshop from the <a href="https://www.agu.org/fall-meeting">2019 American Geophysical Union (AGU) conference</a> titled <a href="http://www.rebekahesmaili.com/workshop.html">“Snakes on a Satellite: Using Python and modern tools for research and analysis of next generation satellite data products”</a>. In the tutorial, the authors go over a way to use a netCDF data file from the Suomi-NPP satellite to analyze aerosol optical depth (AOD) during the 2018 California wildfires.</p>
+
+<p>While going through the workshop’s tutorials, I had some confusion about where to obtain a NetCDF file such as the one used in the tutorial. Plus, given how wildfires were a big problem in 2019 as well for California, I was curious to apply the same methodology onto data from a 2019 wildfire. Thus, I decided to focus on the <a href="https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/">Kincade Fire</a>, which spanned from late October 23, 2019 to November 20, 2019.</p>
+
+<h2 id="analyzing-data">Analyzing data</h2>
+
+<h3 id="obtaining-netcdf-data">Obtaining NetCDF data</h3>
+
+<p>Observations on AOD can be obtained from the National Oceanic and Atmospheric Administration (NOAA)’s <a href="https://www.bou.class.noaa.gov/saa/products/welcome">Comprehensive Large Array-data Stewardship System (CLASS)</a></p>
+
+<h3 id="reading-in-netcdf-data">Reading in NetCDF data</h3>
+
+<h2 id="plotting">Plotting</h2>
+
+<hr />
+
+<p>I skipped a lot of details (my mind erased a lot of the struggles I faced), but check out the Python notebook and HTML file to see how the map was produced!</p>
+:ET

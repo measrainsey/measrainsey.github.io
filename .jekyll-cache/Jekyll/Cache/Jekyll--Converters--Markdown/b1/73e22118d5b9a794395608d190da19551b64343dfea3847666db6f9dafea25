@@ -1,0 +1,45 @@
+I"E<p>:computer: – The Python notebook and data file are available in this <a href="https://github.com/measrainsey/kincade-aod/">Github repository</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/measrainsey/kincade-aod/master/Kincade_AOD_2019-10-29.png" width="600" class="img-center" /></p>
+
+<p>I recently developed an interest in using Python to analyze satellite imagery and geospatial data (in environmental and earth science contexts). So, I’ve been going through a number of different workshops and tutorials that are publicly available on Github. One of them is a workshop from the <a href="https://www.agu.org/fall-meeting">2019 American Geophysical Union (AGU) conference</a> titled <a href="http://www.rebekahesmaili.com/workshop.html">“Snakes on a Satellite: Using Python and modern tools for research and analysis of next generation satellite data products”</a>. In the tutorial, the authors go over a way to use a netCDF data file from the Suomi-NPP satellite to analyze aerosol optical depth (AOD) during the 2018 California wildfires.</p>
+
+<p>While going through the workshop’s tutorials, I had some confusion about where to obtain a NetCDF file such as the one used in the tutorial. Plus, given how wildfires were a big problem in 2019 as well for California, I was curious to apply the same methodology onto data from a 2019 wildfire. Thus, I decided to focus on the <a href="https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/">Kincade Fire</a>, which spanned from late October 23, 2019 to November 20, 2019.</p>
+
+<h2 id="analyzing-data">Analyzing data</h2>
+
+<h3 id="obtaining-netcdf-data">Obtaining NetCDF data</h3>
+
+<p>Observations on AOD can be obtained from the National Oceanic and Atmospheric Administration (NOAA)’s <a href="https://www.bou.class.noaa.gov/saa/products/welcome">Comprehensive Large Array-data Stewardship System (CLASS)</a>. While trying to find out how to get my own NetCDF data, I found <a href="https://www.star.nesdis.noaa.gov/smcd/spb/aq/aqpg/2017/documents/CLASStutorial.pptx">this link</a> (clicking the link will start a PowerPoint file download) to a tutorial on how to order data from the CLASS website. That was useful in learning how to use the CLASS website; however, after going through the instructions and ordering my files through the website, I did not end up receiving my actual download files. NOAA <strong>is</strong> currently in the process of updating their site, so that could be why. Because of that, I decided to just try and download the file through the <a href="ftp://ftp-npp.bou.class.noaa.gov/">CLASS FTP</a> site instead.</p>
+
+<p>In order to figure out which NetCDF file I want to download, I navigated to the <a href="https://www.bou.class.noaa.gov/saa/products/welcome">CLASS home page</a>. In the dropdown menu, I selected <strong>JPSS VIIRS Products (Granule) (JPSS_GRAN)</strong>, then clicked <strong>GO</strong>. In the interactive map, under <em>Spatial</em>, I chose the general California geographic area. I decided to focus on just October 29, 2019 for this analysis.</p>
+
+<p><img src="https://raw.githubusercontent.com/measrainsey/kincade-aod/master/blog/class-1.png" width="600" class="img-center" /></p>
+
+<p>Then, under <strong>Advanced Search</strong>, I selected <strong>VIIRS Aerosol Optical Depth and Aerosol Particle Size EDRs</strong> as my <strong>Datatype</strong> and <strong>S-NPP</strong> as my <strong>Satellite</strong>. After that, I clicked on “Search” to see what results came up.</p>
+
+<p><img src="https://raw.githubusercontent.com/measrainsey/kincade-aod/master/blog/class-2.png" width="500" class="img-center" /></p>
+
+<p>The results came up with two items to choose from. After clicking on <strong>Generate Map</strong> to see which I would prefer, I decided on the first item (the blue one), with the dataset name <code class="highlighter-rouge">JRR-AOD_v2r1_npp_s201910292030186_e201910292040134_c201910292130400.tar</code>.</p>
+
+<p><img src="https://raw.githubusercontent.com/measrainsey/kincade-aod/master/blog/class-3.png" width="500" class="img-center" /></p>
+
+<p>So, next was a matter of figuring out how to navigate the FTP site and finding the exact file. The <a href="ftp://ftp-npp.bou.class.noaa.gov/">FTP site</a> is organized by date, so I tried to find the data file I wanted as such: <code class="highlighter-rouge">20191029</code> :arrow_right: <code class="highlighter-rouge">JPSS-GRAN</code> :arrow_right: <code class="highlighter-rouge">VIIRS-Aerosol-Optical-Depth-and-Aerosol-Particle-Size-EDRs</code> :arrow_right: <code class="highlighter-rouge">NPP</code>. Or, click <a href="ftp://ftp-npp.bou.class.noaa.gov/20191029/JPSS-GRAN/VIIRS-Aerosol-Optical-Depth-and-Aerosol-Particle-Size-EDRs/NPP/">here</a> to go straight to the right directory.</p>
+
+<p>Upon arriving on the directory, I saw that none of the files matched the data file I wanted to download. Turns out, each of the .tar files in the directory included <em>more</em> .tar files, one of which is the one I wanted to download. Each .tar.manifest.xml file lists the files that are included in each corresponding .tar file. Instead of manually downloading each .tar.manifest.xml file and searching through each to find the data file I want, I needed to find a better way to find the right .tar file to download. So, what I did instead was utilize a few shell commands in Terminal to get the job down a lot quicker.</p>
+
+<ol>
+  <li>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-r</span> <span class="nt">-nd</span> <span class="nt">-nH</span> <span class="nt">-A</span> <span class="s2">"*.tar.manifest.xml"</span> ftp://ftp-npp.bou.class.noaa.gov/20191029/JPSS-GRAN/VIIRS-Aerosol-Optical-Depth-and-Aerosol-Particle-Size-EDRs/NPP/
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="reading-in-netcdf-data-into-python">Reading in NetCDF data into Python</h3>
+
+<h2 id="plotting-the-aerosol-optical-depth">Plotting the aerosol optical depth</h2>
+
+<hr />
+
+<p>I skipped a lot of details (my mind erased a lot of the struggles I faced), but check out the Python notebook and HTML file to see how the map was produced!</p>
+:ET

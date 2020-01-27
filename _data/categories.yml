@@ -1,11 +1,14 @@
 - slug: energy
   name: energy
 
+- slug: climate
+  name: climate
+
 - slug: python
   name: python
 
-- slug: d3js
-  name: D3.js
+#- slug: d3js
+#  name: D3.js
 
 #- slug: design
 #  name: Design
