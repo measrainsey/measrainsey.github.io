@@ -8,7 +8,7 @@ body {
     background-color: #fff;
 //    font-weight: 200;
     color:#111;
-    margin:30px auto;
+//    margin:30px auto;
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizeLegibility;
     line-height:1.6;
@@ -88,8 +88,9 @@ strong {
 
 /* =Header */
 .wrapper {
-    max-width: 800px;
-    margin: 30px auto;
+//    max-width: 800px;
+    width: 750px;
+    margin: 30px 300px;
 }
 
 .header {

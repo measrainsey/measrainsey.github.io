@@ -1,7 +1,7 @@
 ---
 layout: page
-title: measrainsey meng
-subtitle: (aka meas)
+title:
+subtitle:
 permalink: /about/
 ---
 
