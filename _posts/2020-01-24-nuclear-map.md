@@ -8,7 +8,7 @@ thumbnail: "https://raw.githubusercontent.com/measrainsey/nuclear-map/master/map
 categories: [energy, python, d3js]
 ---
 
-:bar_chart: -- See the [interactive map](https://bl.ocks.org/measrainsey/bb419d831f03561ed6c4abda2721b3fe) on bl.ocks.org (click on "Open" to see the full map).
+:bar_chart: -- See the [interactive map](https://bl.ocks.org/measrainsey/8190e298e0ef4eb950d0d6b91b32f2b4) on bl.ocks.org (click on "Open" to see the full map).
 
 :computer: -- The Python notebook, data files, and plot files are available in this [Github repository](https://github.com/measrainsey/nuclear-map/).  
 
