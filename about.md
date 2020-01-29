@@ -5,7 +5,9 @@ subtitle:
 permalink: /about/
 ---
 
-<p>I'm a fifth-year environmental engineering PhD candidate at the University of Southern California, advised by <a href="https://s3research.usc.edu/">Professor Kelly T. Sanders</a>. My doctoral research focuses on the water-energy-climate nexus. The majority of my work is centered on developing frameworks to study the vulnerability of electricity generators to climate change. One approach I have taken has been to utilize historical data to study how power systems have responded to climate variability and changes in water resources. Another approach has been to integrate climate, water, and energy models to be able to capture the complex interdependencies between all systems in high resolution.</p>
+<p>I'm a fifth-year environmental engineering PhD candidate at the University of Southern California, advised by <a href="https://s3research.usc.edu/">Professor Kelly T. Sanders</a>. My doctoral research focuses on the water-energy-climate nexus, namely the vulnerability of power systems to climate change. I have focused on developing both data-centered and integrated modeling frameworks to predicting how electricity generators are impacted by increasing temperatures and reduced water availability.</p>
+
+<p>Beyond the electricity generation stage, I have studied the water impacts of energy production and energy consumption as well. My previous work included a geospatial and techno-economic analysis of transporting treated produced water from oil and gas extraction in California to nearby water-stressed communities. I also completed a spatially-decoupled accounting of the life cycle water use impacts associated with coal-based electricity consumption in the US.</p>
 
 <!--
 <h2>Research Interests</h2>
