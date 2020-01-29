@@ -17,8 +17,8 @@ body {
 }
 
 a {
-    color: $cloudy;
-    font-weight: bold;
+    color: $iron;
+//    font-weight: bold;
     text-decoration: none;
 
     &:hover {
@@ -31,9 +31,13 @@ p {
     line-height: 20px;
 }
 
+p a{
+//    color: $cloudy;
+    text-decoration: underline;
+}
 p a:hover {
 // color: lightgray;   
-    color:#111;
+//    color:#111;
 }
 
 img {
