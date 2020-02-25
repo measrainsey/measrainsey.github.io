@@ -16,6 +16,10 @@ body {
     font-family:var(--sans-font);
 }
 
+html {
+    overflow-y: scroll;
+}
+
 a {
     color: $iron;
 //    font-weight: bold;
