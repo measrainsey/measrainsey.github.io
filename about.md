@@ -5,15 +5,15 @@ subtitle:
 permalink: /about/
 ---
   
-I am a postdoctoral researcher in Professor Ranjit Deshmukh's [Clean Energy Transformation Lab (CETlab)](http://www.bren.ucsb.edu/people/Faculty/RanjitDeshmukh.htm) and the [Environmental Market Solutions Lab (emLab)](https://emlab.msi.ucsb.edu) at the University of California, Santa Barbara. I am interested in researching the tensions between energy, water, and climate systems. 
+Hi, I'm Meas. I'm an environmental engineer studying the tensions between energy, water, and climate systems. 
+
+I'm currently a postdoctoral researcher in the [Environmental Market Solutions Lab (emLab)](https://emlab.msi.ucsb.edu) and Professor Ranjit Deshmukh's [Clean Energy Transformation Lab (CETlab)](http://www.bren.ucsb.edu/people/Faculty/RanjitDeshmukh.htm) at the University of California, Santa Barbara. I obtained my PhD from the University of Southern California, under the advisement of [Professor Kelly T. Sanders](https://s3research.usc.edu). 
+
+<!--I am studying the changes in energy production and emissions under various pathways to carbon neutrality in California’s transportation sector.-->
+
 <!--I am currently developing computational models to evaluate potential pathways to carbon neutrality in California’s transportation sector. -->
 
 **Education**
-
-<!--My doctoral research focuses on the water-energy-climate nexus, namely the vulnerability of power systems to climate change. I have developed both data-centered and integrated modeling frameworks to predict how the US electricity grid is impacted by increasing temperatures and reduced water availability.-->
-
-<!--Beyond the electricity generation stage, I have studied the water impacts of energy production and energy consumption as well. My previous work included a geospatial and techno-economic analysis of transporting treated produced water from oil and gas extraction in California to nearby water-stressed communities. I also completed a spatially-decoupled accounting of the life cycle water use impacts associated with coal-based electricity consumption in the US.-->
-
 
 <ul>
   <li><b>PhD, Environmental Engineering (2020)</b><br>University of Southern California</li>
@@ -26,19 +26,3 @@ I am a postdoctoral researcher in Professor Ranjit Deshmukh's [Clean Energy Tran
 **Contact**
 
 Email: [measrainsey[at]gmail[dot]com](mailto:measrainsey@gmail.com)
-
-<!--
-<h2>Research Interests</h2>
-<ul class="list">
-  <li>Tensions between water, energy, and climate systems</li>
-  <li>Vulnerability of the electricity grid to climate variability and water constraints</li>
-  <li>Spatially decoupled accounting of environmental impacts associated with energy consumption</li>
-</ul>
--->
-
-<!--
-<ul>
-  <li><b>PhD, Environmental Engineering</b><br>University of Southern California, 2020</li>
-  <li><b>MS, Mechanical Engineering</b><br>University of Southern California, 2018</li>
-  <li><b>BS, Mechanical Engineering</b><br>California State University, Los Angeles, 2015</li>
-</ul>-->
