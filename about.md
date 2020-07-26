@@ -7,7 +7,7 @@ permalink: /about/
   
 Hi, I'm Meas. I'm an environmental engineer studying the tensions between energy, water, and climate systems. 
 
-I'm currently a postdoctoral researcher in the [Environmental Market Solutions Lab (emLab)](https://emlab.msi.ucsb.edu) and Professor Ranjit Deshmukh's [Clean Energy Transformation Lab (CETlab)](http://www.bren.ucsb.edu/people/Faculty/RanjitDeshmukh.htm) at the University of California, Santa Barbara. I obtained my PhD from the University of Southern California, under the advisement of [Professor Kelly T. Sanders](https://s3research.usc.edu). 
+I'm currently a postdoctoral researcher in the [Environmental Market Solutions Lab (emLab)](https://emlab.msi.ucsb.edu) and Professor Ranjit Deshmukh's [Clean Energy Transformation Lab (CETlab)](https://www.es.ucsb.edu/ranjit-deshmukh) at the University of California, Santa Barbara. I obtained my PhD from the University of Southern California, under the advisement of [Professor Kelly T. Sanders](https://s3research.usc.edu). 
 
 <!--I am studying the changes in energy production and emissions under various pathways to carbon neutrality in California’s transportation sector.-->
 
