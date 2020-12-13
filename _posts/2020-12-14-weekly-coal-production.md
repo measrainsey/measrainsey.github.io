@@ -2,7 +2,7 @@
 layout: post
 title:  "US coal production in 2020 reach lowest level in the past three decades"
 subtitle: "Visualizing weekly US coal production"
-date:   2020-12-13 19:00:00
+date:   2020-12-14 19:00:00
 thumbnail: "https://github.com/measrainsey/weekly-coal/blob/main/figures/fig_weekly_coal_production.png"
 <!--permalink: kincade-aod-->
 categories: [energy, coal, R]
