@@ -1,0 +1,14 @@
+I"$<p>:computer: – The scripts used to create this figure are provided in this <a href="https://github.com/measrainsey/weekly-coal/">Github repository</a>.</p>
+
+<p><img src="/assets/figures/fig_weekly_coal_production.png" width="800" class="img-center" /></p>
+
+<p>According to the U.S. Energy Information Administration’s (EIA) <a href="https://www.eia.gov/coal/production/weekly/">Weekly Coal Production estimates</a>, coal production in nearly every week has been lower than they’ve been since the 1980s. The figure above shows 2020 weekly coal production (yellow line) up to December 5, 2020 (week 49). Given the anomoly of 2020, I also wanted to compare 2020 coal production to 2019 levels (red line). In general, weekly coal production in 2019 was lower than the historic range from 1984-2018 – unsurprising considering <a href="https://www.eia.gov/todayinenergy/detail.php?id=44536">national coal production in 2019 was the lowest since 1978</a>.</p>
+
+<h2 id="gathering-and-analyzing-data">Gathering and analyzing data</h2>
+
+<h3 id="obtaining-weekly-coal-production-data-from-the-eia">Obtaining weekly coal production data from the EIA</h3>
+
+<h3 id="reading-and-cleaning-the-data-in-r">Reading and cleaning the data in R</h3>
+
+<h2 id="plotting-weekly-coal-production">Plotting weekly coal production</h2>
+:ET
