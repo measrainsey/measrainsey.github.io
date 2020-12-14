@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Animated map of US nuclear generating capacity"
+title:  "Animated map of U.S. nuclear generating capacity"
 subtitle: "Using D3.js to map nuclear power plants over the years"
 date:   2020-01-24 16:00:00
 <!--permalink: -->
