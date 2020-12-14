@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "U.S. coal production this year fell to its lowest level in more than 30 years"
+title:  "U.S. coal production this year fell to its lowest level in more than 3 decades"
 subtitle: "Comparing 2020 weekly U.S. coal production to historic levels"
 date:   2020-12-14 06:00:00
 thumbnail: "https://raw.githubusercontent.com/measrainsey/weekly-coal/main/figures/fig_weekly_coal_production.png"
