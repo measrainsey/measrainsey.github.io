@@ -1,12 +1,10 @@
-I"�<p>:computer: – The scripts needed to create this figure are provided in this <a href="https://github.com/measrainsey/weekly-coal/">Github repository</a>.</p>
+I"�<p>:computer: – The scripts needed to create this figure are provided in this <a href="https://github.com/measrainsey/weekly-coal/">Github repository</a>.</p>
 
-<p><img src="/assets/figures/fig_weekly_coal_production.png" width="800" class="img-center" /></p>
+<p><img src="https://github.com/measrainsey/weekly-coal/blob/main/figures/fig_weekly_coal_production.png" width="800" class="img-center" /></p>
 
 <p>According to the U.S. Energy Information Administration’s (EIA) <a href="https://www.eia.gov/coal/production/weekly/">Weekly Coal Production estimates</a>, coal production in nearly every week has been lower than they’ve been since the 1980s. The figure above shows 2020 weekly coal production (yellow line) up to December 5, 2020 (week 49). Given the anomoly of 2020, I also wanted to compare 2020 coal production to 2019 levels (red line). In general, weekly coal production in 2019 was lower than the historic range from 1984-2018 – unsurprising considering <a href="https://www.eia.gov/todayinenergy/detail.php?id=44536">national coal production in 2019 was the lowest since 1978</a>.</p>
 
 <h2 id="notes-on-the-data">Notes on the data</h2>
-
-<h3 id="obtaining-weekly-coal-production-data-from-the-eia">Obtaining weekly coal production data from the EIA</h3>
 
 <p>All of the data needed for this analysis can be downloaded on the EIA’s <a href="https://www.eia.gov/coal/production/weekly/">Weekly Coal Production estimates</a> website. To view previous weeks’ data, click on the “Archive” link.</p>
 
@@ -28,5 +26,5 @@
 
 <h3 id="data-cleaning">Data cleaning</h3>
 
-<p>The main cleaning involved for this analysis was renaming columns and binding datasets across the years, since the formatting and number of weeks (52 or 53) changed between years. Additionally, I noticed that for some years, the week 1 and/or week 53 production values</p>
+<p>The main cleaning involved for this analysis was renaming columns and binding datasets across the years, since the formatting and number of weeks (52 or 53) changed between years. Additionally, I noticed that for some years, the week 1 and/or week 53 production values were significantly lower than the other weeks’, leading me to assume that one year’s 53rd week can be shared with the following year’s 1st week. In such instances of low week 1 and/or week 53 production values, I aggregated the production to be the later year’s week 1 production.</p>
 :ET

@@ -2,15 +2,15 @@
 layout: post
 title:  "U.S. coal production in 2020 fell to its lowest level in more than 30 years"
 subtitle: "Comparing 2020 weekly U.S. coal production to historic levels"
-date:   2020-12-14 19:00:00
-thumbnail: "https://github.com/measrainsey/weekly-coal/blob/main/figures/fig_weekly_coal_production.png"
+date:   2020-12-13 09:00:00
+thumbnail: "https://raw.githubusercontent.com/measrainsey/weekly-coal/main/figures/fig_weekly_coal_production.png"
 <!--permalink: kincade-aod-->
 categories: [energy, coal, R]
 ---
 
 :computer: -- The scripts needed to create this figure are provided in this [Github repository](https://github.com/measrainsey/weekly-coal/).  
 
-<img src="/assets/figures/fig_weekly_coal_production.png" width="800" class="img-center">
+<img src="https://raw.githubusercontent.com/measrainsey/weekly-coal/main/figures/fig_weekly_coal_production.png" width="800" class="img-center">
 
 According to the U.S. Energy Information Administration’s (EIA) [Weekly Coal Production estimates](https://www.eia.gov/coal/production/weekly/), coal production in nearly every week has been lower than they've been since the 1980s. The figure above shows 2020 weekly coal production (yellow line) up to December 5, 2020 (week 49). Given the anomoly of 2020, I also wanted to compare 2020 coal production to 2019 levels (red line). In general, weekly coal production in 2019 was lower than the historic range from 1984-2018 -- unsurprising considering [national coal production in 2019 was the lowest since 1978](https://www.eia.gov/todayinenergy/detail.php?id=44536). 
 
