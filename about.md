@@ -5,7 +5,7 @@ subtitle:
 permalink: /about/
 ---
 
-<img class="circle" src="/assets/pfp2.png">
+<img class="circle" src="/assets/pfp.png">
 
 Hi, I'm Meas. :wave: I research energy issues.
 
