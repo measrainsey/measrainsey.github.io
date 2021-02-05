@@ -1,11 +1,4 @@
----
-layout: page
-title:
-subtitle:
-permalink: /about/
----
-
-<img class="circle" src="/assets/pfp2.png">
+I"Â<div class="about"><img class="circle" src="/assets/pfp.png" />
 
 Hi, I'm Meas. :wave: I research energy issues.
 
@@ -27,3 +20,5 @@ I am currently a postdoctoral researcher in the [Environmental Market Solutions 
 
 [measrainsey@gmail.com](mailto:measrainsey@gmail.com)
 -->
+</div>
+:ET

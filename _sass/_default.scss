@@ -50,6 +50,11 @@ p a:hover {
 //    color:#111;
 }
 
+p.pfp {
+    width: 600px;
+    text-align: center;
+}
+
 img {
     margin: 0px auto;
     display: inline;
@@ -61,6 +66,20 @@ img {
   margin-left: auto;
   margin-right: auto;
 //  width: 50%;
+}
+
+.circle {
+  border-radius: 50%;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.left {
+ width: 250px;
+ border-radius: 50%;
+ float: left;
+ padding: 0 20px 0 0;
 }
 
 
@@ -107,6 +126,7 @@ strong {
 //    width: 750px;
 //    margin: 30px 300px;
 }
+
 
 .header {
     overflow: hidden;
