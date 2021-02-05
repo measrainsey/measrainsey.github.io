@@ -42,12 +42,15 @@ p {
 }
 
 p a{
-//    color: $cloudy;
-    text-decoration: underline;
+// color: #e4938c;
+ color: $cloudy;
+ text-decoration: underline;
+ text-decoration-color: lightgray;
 }
 p a:hover {
-// color: lightgray;   
-//    color:#111;
+ color: $cloudy;
+ text-decoration: underline;
+ text-decoration-color: $cloudy;
 }
 
 p.pfp {
@@ -79,7 +82,7 @@ img {
  width: 300px;
 // border-radius: 50%;
  float: left;
- padding: 0 20px 0 0;
+ padding: 0 25px 0 0;
 }
 
 
