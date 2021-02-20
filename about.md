@@ -5,10 +5,10 @@ subtitle:
 permalink: /about/
 ---
 
-name: measrainsey (meas) meng
+name: meas
 
-currently: postdoc @ [emLab](https://emlab.msi.ucsb.edu) and [CETlab](https://www.es.ucsb.edu/ranjit-deshmukh)
+currently: postdoc @ UCSB ([emLab](https://emlab.msi.ucsb.edu) / [CETlab](https://www.es.ucsb.edu/ranjit-deshmukh))
 
-previously: environmental engineering PhD @ [S3 research group](https://s3research.usc.edu)
+previously: environmental engineering PhD @ USC ([S3 research group](https://s3research.usc.edu))
 
 pronouns: she/her/hers
