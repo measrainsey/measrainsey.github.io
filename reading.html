@@ -1,0 +1,35 @@
+---
+layout: page
+title:
+subtitle:
+permalink: /reading/
+---
+
+<!--<div class="books">-->
+<ul class="reading-list">
+   {% for book in site.data.books %}
+        <li>
+          <a href = "{{ book.link }}">
+              <span class="book-teaser__title">{{ book.title }}</span>
+          </a>
+          <span class="book-teaser__author"> {{ book.author }} </span>
+          <span class="book-teaser__date"> {{ book.completed | date: "%d %B %Y" }} </span>
+<!--            <span class="book-teaser__stars"> ★ </span>-->
+        </li>
+    {% endfor %}
+</ul>
+<!--</div>-->
+<!--
+    {% for post in site.posts %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+            </a>
+            <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+        </li>
+        <hr>
+    {% endfor %}
+-->
+
+
+<!--{% include page/explore.html %}-->

@@ -272,6 +272,95 @@ strong {
     text-align: center;
 }
 
+//Reading list 
+
+.reading-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.book-teaser {
+    margin-bottom: 2px;
+    font-weight: 550;
+}
+
+.book-teaser__title {
+    font-size: 18px;
+    color: $iron;
+    font-weight: 550;
+}
+
+.book-teaser__title:hover {
+    text-decoration: underline;
+}
+
+
+.book-teaser__author {
+    font-size: 16px;
+    color: $cloudy;
+    margin-left: 10px;
+}
+
+//    .author {
+//      font-size: 16px;
+//      color: #555;
+//        margin-left: 10px;
+
+
+.book-teaser__date {
+    font-size: 16px;
+    float: right;
+    vertical-align: middle;
+    color: $cloudy;
+    font-weight: 400;
+}
+
+.book-teaser__stars {
+    font-size: 16px;
+    float: right;
+    vertical-align: middle;
+    color: $cloudy;
+    font-weight: 400;
+}
+
+
+
+//  .books {
+//    .reading-list {
+//        list-style-type: none;
+//        padding: 0px;
+//    }
+//  .title {
+//      margin-bottom: 2px;
+//      font-weight: 550;
+//      font-size: 18px;
+//      color: $iron;
+//      }
+//    .author {
+//      font-size: 16px;
+//      color: #555;
+//        margin-left: 10px;
+//    .books-date {
+//        margin-bottom: 2px;
+//        font-size: 16px;
+//        float: right;
+//        vertical-align: middle;
+//        color: $cloudy;
+//        font-weight: 400;
+//        }
+//    }
+//    .star {
+//    float: right;
+////      margin-left: 3px;
+//      color: $iron;
+//      font-size: 16px;
+//    }
+//    a {
+//      color: #383838;
+//    }
+//  }
+//
+
 /* =Explore */
 .explore {
     text-align: center;
