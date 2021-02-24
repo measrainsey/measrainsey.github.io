@@ -12,7 +12,7 @@ permalink: /reading/
               <span class="book-teaser__title">{{ book.title }}</span>
           </a>
           <span class="book-teaser__author"> {{ book.author }} </span>
-          <span class="book-teaser__date"> {{ book.completed | date: "%d %B %Y" }} </span>
+          <span class="book-teaser__date"> {{ book.completed | date: "%Y-%m-%d" }} </span>
 <!--            <span class="book-teaser__stars"> ★ </span>-->
         </li>
     {% endfor %}
