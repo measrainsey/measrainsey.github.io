@@ -6,6 +6,16 @@ current: reading
 permalink: /reading/
 ---
 
+<div class="readings nu">
+   {% for book in site.data.books %}
+   <div><a href = "{{ book.link }}"><span class="book-teaser__title">{{ book.title }}</span></a></div>
+   <div><span class="book-teaser__author">{{ book.author }}</span></div>
+   <div><span class="book-teaser__date">{{ book.completed | date: "%Y-%m-%d" }}</span></div>
+    {% endfor %}
+</div>
+
+
+<!--
 <ul class="reading-list">
    {% for book in site.data.books %}
         <li>
@@ -14,7 +24,8 @@ permalink: /reading/
           </a>
           <span class="book-teaser__author"> {{ book.author }} </span>
           <span class="book-teaser__date"> {{ book.completed | date: "%Y-%m-%d" }} </span>
-<!--            <span class="book-teaser__stars"> ★ </span>-->
+            <span class="book-teaser__stars"> ★ </span>
         </li>
     {% endfor %}
 </ul>
+-->
