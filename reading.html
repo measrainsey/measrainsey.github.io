@@ -8,7 +8,7 @@ permalink: /reading/
 
 <div class="readings nu">
    {% for book in site.data.books %}
-   <div><a href = "{{ book.link }}"><span class="book-teaser book-teaser__title">{{ book.title }}</span></a></div>
+   <div><span class="book-teaser book-teaser__title"><a href = "{{ book.link }}">{{ book.title }}</a></span></div>
    <div><span class="book-teaser__author">{{ book.author }}</span></div>
    <date>{{ book.completed | date: "%Y-%m-%d" }}</date>
     {% endfor %}

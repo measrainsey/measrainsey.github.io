@@ -9,7 +9,7 @@ sitemap:
 
 <div class="blogposts nu">
    {% for post in site.posts %}
-   <div><a href = "{{ post.url | prepend: site.baseurl }}"><span class="post-teaser__title">{{ post.title }}</span></a></div>
+   <div><span class="post-teaser__title"><a href = "{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></div>
    <date>{{ post.date | date: "%Y-%m-%d" }}</date>
     {% endfor %}
 </div>
