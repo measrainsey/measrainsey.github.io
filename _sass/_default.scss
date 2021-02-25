@@ -421,7 +421,6 @@ strong {
 //    width: 28%;
 }
 
-
 .book-teaser__date {
     font-size: 16px;
 //    float: right;
@@ -552,6 +551,14 @@ strong {
     .post-title__subtitle {
         font-size: 18px;
     }
+    
+    .aboutpage {
+        display: grid;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(0.25fr, 1fr));
+    }
+
 
     
 //    .blogposts {
