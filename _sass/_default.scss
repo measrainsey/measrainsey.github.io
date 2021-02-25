@@ -207,6 +207,49 @@ strong {
     margin-left: 10px;
 }
 
+/* =Post teasers */
+
+.aboutpage {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 0.25fr 2fr;
+//    grid-template-columns: 1fr .75fr min-content 70px;
+}
+
+.aboutpage>div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.aboutpage__title {
+    font-weight: 550;
+    font-size: 16px;
+    color: $iron;
+    align: left;
+}
+
+.aboutpage__text {
+    font-size: 16px;
+//    color: $iron;
+    align: left;
+}
+
+
+.aboutpage__text a {
+     color: $cloudy;
+     text-decoration: underline;
+     text-decoration-color: lightgray;
+}
+
+.aboutpage__text a:hover {
+     color: $iron;
+     text-decoration: underline;
+     text-decoration-color: $cloudy;
+}
+
+
 /* =Titles */
 .page-title {
     margin-top:30px;
