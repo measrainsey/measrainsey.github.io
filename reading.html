@@ -8,8 +8,8 @@ permalink: /reading/
 
 <div class="readings nu">
    {% for book in site.data.books %}
-   <div><span class="book-teaser__title"><a href = "{{ book.link }}">{{ book.title }}</a></span></div>
-   <div><span class="book-teaser__author">{{ book.author }}</span></div>
+   <div><span class="readings__title"><a href = "{{ book.link }}">{{ book.title }}</a></span></div>
+   <div><span class="readings__author">{{ book.author }}</span></div>
    <date>{{ book.completed | date: "%Y-%m-%d" }}</date>
     {% endfor %}
 </div>
@@ -20,11 +20,11 @@ permalink: /reading/
    {% for book in site.data.books %}
         <li>
           <a href = "{{ book.link }}">
-              <span class="book-teaser__title">{{ book.title }}</span>
+              <span class="readings__title">{{ book.title }}</span>
           </a>
-          <span class="book-teaser__author"> {{ book.author }} </span>
-          <span class="book-teaser__date"> {{ book.completed | date: "%Y-%m-%d" }} </span>
-            <span class="book-teaser__stars"> ★ </span>
+          <span class="readings__author"> {{ book.author }} </span>
+          <span class="readings__date"> {{ book.completed | date: "%Y-%m-%d" }} </span>
+            <span class="readings__stars"> ★ </span>
         </li>
     {% endfor %}
 </ul>

@@ -395,12 +395,12 @@ strong {
 //    padding: 0px;
 //}
 
-//.book-teaser {
+//.readings {
 //    margin-bottom: 2px;
 //    font-weight: 550;
 //}
 
-.book-teaser__title {
+.readings__title {
     font-weight: 550;
     font-size: 16px;
     color: $iron;
@@ -408,12 +408,12 @@ strong {
     float: left;
 }
 
-.book-teaser__title:hover {
+.readings__title:hover {
     text-decoration: underline;
 }
 
 
-.book-teaser__author {
+.readings__author {
     font-size: 16px;
     color: $cloudy;
 //    margin-left: 10px;
@@ -421,7 +421,7 @@ strong {
 //    width: 28%;
 }
 
-.book-teaser__date {
+.readings__date {
     font-size: 16px;
 //    float: right;
 //    vertical-align: middle;
@@ -430,7 +430,7 @@ strong {
 //    width: 10%;
 }
 
-.book-teaser__stars {
+.readings__stars {
     font-size: 16px;
     float: right;
 //    vertical-align: middle;
@@ -622,21 +622,21 @@ strong {
 //    }
 //
 //    
-//    .book-teaser__title {
+//    .readings__title {
 //        font-size: 16px;
 ////        float: left;
 //        display: block;
 ////        @include centered-block();
 //    }
 //    
-//    .book-teaser__author {
+//    .readings__author {
 //        font-size: 16px;
 ////        float: left;
 //        display: block;
 ////        @include centered-block();
 //    }
 //
-//    .book-teaser__date {
+//    .readings__date {
 //        font-size: 16px;
 ////        margin-top: 10px;
 ////        float: left;
