@@ -503,6 +503,8 @@ strong {
     
     .book-teaser__author {
         font-size: 16px;
+        margin-top: 5px;
+        float: none;
         @include centered-block();
     }
 
