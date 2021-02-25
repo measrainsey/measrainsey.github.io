@@ -170,12 +170,30 @@ strong {
 
 .menu__entry a {
     font-weight: 400;
+    color: $cloudy;
 }
+
+.menu__entry a:hover {
+//    text-decoration: underline;
+    color: $iron;
+}
+
 
 .menu__entry:hover {
-    text-decoration: underline;
+//    text-decoration: underline;
+    color: $iron;
 }
 
+.menu__entry_current {
+    color: $iron;
+    display: inline-block;
+    margin-right: 35px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+//    text-decoration: underline;
+}
 
 .social-links {
     float:right;
