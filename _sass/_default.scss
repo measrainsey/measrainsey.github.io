@@ -537,22 +537,25 @@ strong {
     }
 
     .post-teaser__title {
-        font-size: 18px;
+        font-size: 16px;
         float: left;
-        @include centered-block();
+        display: block;
+//        @include centered-block();
     }
 
     .post-teaser__date {
         font-size: 16px;
         margin-top: 10px;
         float: left;
-        @include centered-block();
+        display: block;
+//        @include centered-block();
     }
     
     .book-teaser__title {
-        font-size: 18px;
+        font-size: 16px;
         float: left;
-        @include centered-block();
+        display: block;
+//        @include centered-block();
     }
     
     .book-teaser__author {
@@ -560,14 +563,16 @@ strong {
         margin-left: 0px;
         margin-top: 5px;
         float: left;
-        @include centered-block();
+        display: block;
+//        @include centered-block();
     }
 
     .book-teaser__date {
         font-size: 16px;
         margin-top: 10px;
         float: left;
-        @include centered-block();
+        display: block;
+//        @include centered-block();
     }
 
 
