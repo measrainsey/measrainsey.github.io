@@ -542,6 +542,11 @@ strong {
         display: block;
 //        @include centered-block();
     }
+    
+    .post-teaser__title::after { 
+        display: block; 
+        white-space: pre; 
+    } 
 
     .post-teaser__date {
         font-size: 16px;
