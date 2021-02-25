@@ -7,6 +7,15 @@ sitemap:
   priority: 0.9
 ---
 
+<div class="blogposts nu">
+   {% for post in site.posts %}
+   <div><a href = "{{ post.url | prepend: site.baseurl }}"><span class="post-teaser__title">{{ post.title }}</span></a></div>
+   <date>{{ post.date | date: "%Y-%m-%d" }}</date>
+    {% endfor %}
+</div>
+
+
+<!--
 <ul class="list-posts">
     {% for post in site.posts %}
         <li class="post-teaser">
@@ -14,12 +23,13 @@ sitemap:
                 <span class="post-teaser__title">{{ post.title }}</span>
             </a>
             <span class="post-teaser__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-<!--            <span class="post-teaser__subtitle">{{ post.subtitle }}</span>-->
-<!--            <img style="width:500px" align="center" src="{{ post.thumbnail }}" />-->
+            <span class="post-teaser__subtitle">{{ post.subtitle }}</span>
+            <img style="width:500px" align="center" src="{{ post.thumbnail }}" />
         </li>
-<!--        <hr>-->
     {% endfor %}
 </ul>
+-->
+
 
 
 <!--{% include page/explore.html %}-->

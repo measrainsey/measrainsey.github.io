@@ -251,17 +251,43 @@ strong {
 
 /* =Post teasers */
 
-.list-posts {
-    list-style-type: none;
-    padding: 0px;
+.blogposts {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 2fr min-content;
+//    grid-template-columns: 1fr .75fr min-content 70px;
 }
 
-.post-teaser {
-    margin-bottom: 2px;
-    font-weight: 550;
+.blogposts>div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.blogposts date {
+    padding-right: .25em;
+    color: $cloudy;
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.012em;
+    white-space: pre;
+}
+
+
+//.list-posts {
+//    list-style-type: none;
+//    padding: 0px;
+//}
+
+//.post-teaser {
+//    margin-bottom: 2px;
+//    font-weight: 550;
+//}
 
 .post-teaser__title {
+//    margin-bottom: 2px;
+    font-weight: 550;
     font-size: 16px;
     color: $iron;
 }
@@ -279,6 +305,7 @@ strong {
 }
 
 .post-teaser__date {
+//    margin-bottom: 2px;
     font-size: 16px;
     float: right;
     vertical-align: middle;
@@ -296,20 +323,44 @@ strong {
 
 //Reading list 
 
-.reading-list {
-    list-style-type: none;
-    padding: 0px;
+.readings {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 1.5fr .75fr min-content;
+//    grid-template-columns: 1fr .75fr min-content 70px;
 }
 
-.book-teaser {
-    margin-bottom: 2px;
-    font-weight: 550;
+.readings>div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
+.readings date {
+    padding-right: .25em;
+    color: $cloudy;
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.012em;
+    white-space: pre;
+}
+
+//.reading-list {
+//    list-style-type: none;
+//    padding: 0px;
+//}
+
+//.book-teaser {
+//    margin-bottom: 2px;
+//    font-weight: 550;
+//}
 
 .book-teaser__title {
+    font-weight: 550;
     font-size: 16px;
     color: $iron;
-    font-weight: 550;
     width: 60%;
     float: left;
 }
@@ -345,19 +396,6 @@ strong {
     font-weight: 400;
 }
 
-.readings {
-    display: grid;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    grid-template-columns: 1.5fr .75fr min-content;
-//    grid-template-columns: 1fr .75fr min-content 70px;
-}
-
-.readings>div {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
 
 
