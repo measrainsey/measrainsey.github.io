@@ -543,6 +543,30 @@ strong {
 //        @include centered-block();
     }
     
+    .blogposts {
+        display: grid;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        grid-template-columns: 2fr min-content;
+    //    grid-template-columns: 1fr .75fr min-content 70px;
+    }
+
+    .blogposts>div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .blogposts date {
+        padding-right: .25em;
+        color: $cloudy;
+        font-size: 16px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -.012em;
+        white-space: pre;
+    }
+
+    
     .post-teaser__title::after { 
         display: block; 
         white-space: pre; 
