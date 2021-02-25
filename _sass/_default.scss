@@ -310,6 +310,8 @@ strong {
     font-size: 18px;
     color: $iron;
     font-weight: 550;
+    width: 60%;
+    float: left;
 }
 
 .book-teaser__title:hover {
@@ -320,7 +322,9 @@ strong {
 .book-teaser__author {
     font-size: 16px;
     color: $cloudy;
-    margin-left: 10px;
+//    margin-left: 10px;
+    float: left;
+    width: 28%;
 }
 
 //    .author {
@@ -332,9 +336,10 @@ strong {
 .book-teaser__date {
     font-size: 16px;
     float: right;
-    vertical-align: middle;
+//    vertical-align: middle;
     color: $cloudy;
     font-weight: 400;
+//    width: 10%;
 }
 
 .book-teaser__stars {
