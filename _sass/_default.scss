@@ -579,89 +579,90 @@ strong {
         font-size: 18px;
     }
 
-    .post-teaser__title {
-        font-size: 16px;
-//        float: left;
-        display: block;
-//        @include centered-block();
-    }
     
-    .blogposts {
-        display: grid;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-//        grid-template-columns: 2fr min-content;
-        grid-template-columns: repeat(auto-fit, minmax(min-content, 2fr));
-    //    grid-template-columns: 1fr .75fr min-content 70px;
-    }
-
-    .blogposts>div {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .blogposts date {
-        padding-right: .25em;
-        color: $cloudy;
-        font-size: 16px;
-        font-variant-numeric: tabular-nums;
-        letter-spacing: -.012em;
-        white-space: pre;
-    }
-
-    
-    .post-teaser__title::after { 
-        display: block; 
-        white-space: pre; 
-    } 
-
-    .post-teaser__date {
-        font-size: 16px;
-        margin-top: 10px;
-//        float: left;
-        display: block;
-//        @include centered-block();
-    }
-    
-    .readings {
-        display: grid;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        grid-template-columns: repeat(auto-fit, minmax(min-content, 1.5fr));
-//        grid-template-columns: 1.5fr .75fr min-content;
-    //    grid-template-columns: 1fr .75fr min-content 70px;
-    }
-
-    .readings>div {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    
-    .book-teaser__title {
-        font-size: 16px;
-//        float: left;
-        display: block;
-//        @include centered-block();
-    }
-    
-    .book-teaser__author {
-        font-size: 16px;
-//        float: left;
-        display: block;
-//        @include centered-block();
-    }
-
-    .book-teaser__date {
-        font-size: 16px;
+//    .blogposts {
+//        display: grid;
+//        grid-column-gap: 5px;
+//        grid-row-gap: 5px;
+////        grid-template-columns: 2fr min-content;
+//        grid-template-columns: repeat(auto-fit, minmax(min-content, 2fr));
+//    //    grid-template-columns: 1fr .75fr min-content 70px;
+//    }
+//
+//    .blogposts>div {
+//        white-space: nowrap;
+//        overflow: hidden;
+//        text-overflow: ellipsis;
+//    }
+//
+//    .blogposts date {
+//        padding-right: .25em;
+//        color: $cloudy;
+//        font-size: 16px;
+//        font-variant-numeric: tabular-nums;
+//        letter-spacing: -.012em;
+//        white-space: pre;
+//    }
+//    
+//    .post-teaser__title {
+//        font-size: 16px;
+////        float: left;
+//        display: block;
+////        @include centered-block();
+//    }
+//
+//    
+//    .post-teaser__title::after { 
+//        display: block; 
+//        white-space: pre; 
+//    } 
+//
+//    .post-teaser__date {
+//        font-size: 16px;
 //        margin-top: 10px;
-//        float: left;
-        display: block;
-//        @include centered-block();
-    }
-
+////        float: left;
+//        display: block;
+////        @include centered-block();
+//    }
+//    
+//    .readings {
+//        display: grid;
+//        grid-column-gap: 5px;
+//        grid-row-gap: 5px;
+//        grid-template-columns: repeat(auto-fit, minmax(min-content, 1.5fr));
+////        grid-template-columns: 1.5fr .75fr min-content;
+//    //    grid-template-columns: 1fr .75fr min-content 70px;
+//    }
+//
+//    .readings>div {
+//        white-space: nowrap;
+//        overflow: hidden;
+//        text-overflow: ellipsis;
+//    }
+//
+//    
+//    .book-teaser__title {
+//        font-size: 16px;
+////        float: left;
+//        display: block;
+////        @include centered-block();
+//    }
+//    
+//    .book-teaser__author {
+//        font-size: 16px;
+////        float: left;
+//        display: block;
+////        @include centered-block();
+//    }
+//
+//    .book-teaser__date {
+//        font-size: 16px;
+////        margin-top: 10px;
+////        float: left;
+//        display: block;
+////        @include centered-block();
+//    }
+//
 
     .explore {
         margin-top: 80px;
