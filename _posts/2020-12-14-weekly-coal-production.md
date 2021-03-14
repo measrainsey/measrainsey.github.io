@@ -20,18 +20,20 @@ All of the data needed for this analysis can be downloaded on the EIA's [Weekly 
 
 I decided to use the "Original estimates*" version for 2020 since the data goes up to a more recent week than the "Revised estimates" version. For 1968-2019, I used the "Revised estimates" version. A simple bash script can be used to automate the data downloading process for all the years:
 
-    #!/bin/bash
-    # for 2020, get original estimates:
-        wget -nc 'https://www.eia.gov/coal/production/weekly/current_year/weekprodforecast2020tot.xls'
+```bash
+#!/bin/bash
+# for 2020, get original estimates:
+    wget -nc 'https://www.eia.gov/coal/production/weekly/current_year/weekprodforecast2020tot.xls'
 
-    # for all historic years, get revised estimates:
-        for i in $(seq -w 2015 2019)
-            do wget -nc 'https://www.eia.gov/coal/production/weekly/current_year/weekprod'$i'tot.xls'
-            done
+# for all historic years, get revised estimates:
+    for i in $(seq -w 2015 2019)
+        do wget -nc 'https://www.eia.gov/coal/production/weekly/current_year/weekprod'$i'tot.xls'
+        done
 
-        for i in $(seq -w 1984 2014)
-            do wget -nc 'https://www.eia.gov/coal/production/weekly/archive/weekprod'$i'tot.xls'
-            done
+    for i in $(seq -w 1984 2014)
+        do wget -nc 'https://www.eia.gov/coal/production/weekly/archive/weekprod'$i'tot.xls'
+        done
+```
 
 ### Data cleaning
 
