@@ -129,8 +129,13 @@ strong {
 // code block syntax
 
 code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 14px;
+    // font-family: monospace, monospace;
+    font-family: "Victor Mono", "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 11pt;
+    font-variant-ligatures: discretionary-ligatures;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
 }
 
 code.hljs {
@@ -139,17 +144,18 @@ code.hljs {
     padding: 1em;
     // background: #002b36;
     background: black;
-    color: #d1d1d1;
+    color: #f1f1f1;
     -webkit-text-size-adjust: none;
     border-radius: 10px 10px 10px 10px;
 }
 
-.highlight {
-    margin: 0;
-    font-size: 14px; 
-    line-height: 1.5;
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-  }
+// .highlight {
+//     margin: 0;
+//     font-size: 10pt; 
+//     line-height: 1.5;
+//     // font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+//     font-family: "Victor Mono", "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+//   }
 
   
 /* =Header */
