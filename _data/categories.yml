@@ -7,8 +7,14 @@
 - slug: python
   name: python
 
-#- slug: d3js
-#  name: D3.js
+- slug: d3js
+  name: D3.js
+
+- slug: R
+  name: R
+
+- slug: coal
+  name: coal
 
 #- slug: design
 #  name: Design
