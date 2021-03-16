@@ -1,12 +1,16 @@
 <h1 class="page-title post-title">
     <div class="page-title__text post-title__text">{{ page.title }}</div>
     <div class="page-title__subtitle post-title__subtitle">{{ page.subtitle }}</div>
-    <div class="post-title__categories"> Tagged with: 
+    <div class="post-title__categories">
+      <strong>{{ page.date | date: "%d %B %Y" }}</strong>
+  </div>
+
+    <!-- <div class="post-title__categories"> Tagged with: 
      {% for category in page.categories %}
           <a href="/categories/{{ category | slugize }}/">
             {{ category }}
           </a>
         {% endfor %}
-    </div>
+    </div> -->
 
 </h1>

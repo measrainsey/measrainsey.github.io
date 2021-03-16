@@ -1,7 +1,14 @@
 <div class="about">
     <div class="about__devider">*****</div>
-    <div class="about__text">
+    <div class="about__text"> Tagged with: 
+        {% for category in page.categories %}
+             <a href="/categories/{{ category | slugize }}/">
+               {{ category }}
+             </a>
+           {% endfor %}
+       </div>   
+    <!-- <div class="about__text">
         Written by <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
         on <strong>{{ page.date | date: "%d %B %Y" }}</strong>
-    </div>
+    </div> -->
 </div>

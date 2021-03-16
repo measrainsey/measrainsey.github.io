@@ -316,12 +316,12 @@ code.hljs {
 }
 
 .post-title__categories {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 
 .post-title__categories a:hover {
-    font-size: 15px;
+    font-size: 16px;
 //    color: lightgrey;
     color:#111;
 }
@@ -536,6 +536,12 @@ code.hljs {
 .about__text {
     font-size: 18px;
 }
+
+.about__text a:hover {
+   color: $cloudy;
+    // color:#111;
+}
+
 
 #disqus_thread {
     margin-top: 100px;
