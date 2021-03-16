@@ -1,15 +1,15 @@
 ---
 layout: page
-title:
+title: about
 subtitle:
 current: about
 permalink: /about/
 ---
 
 <center> 
-<h1>meas</h1> 
+<h1>hi, i'm meas</h1> 
 
-hi. :wave: i study energy systems. 
+i study energy systems
 
 <br>
 <br>
