@@ -224,8 +224,11 @@ code.hljs {
     &:last-child {
         margin-right: 0px;
     }
-//    text-decoration: underline;
+
+//    text-decoration: underline #ee983d;
+   border-bottom: 0.18em solid $iron;
 }
+
 
 .social-links {
     float:right;
