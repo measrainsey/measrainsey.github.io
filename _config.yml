@@ -1,7 +1,6 @@
 # Site settings
 title: measrainsey meng
-description: >
-  Personal site for Measrainsey Meng
+description: personal site
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://measrainsey.com" # the base hostname & protocol for your site
