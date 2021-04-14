@@ -2,8 +2,8 @@
 
 body {
 //    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    // font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Jetbrains Mono", helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
-    font-family: relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Jetbrains Mono", helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+    // font-family: relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
     line-height: 1.6;
 //    letter-spacing: -0.2px;
 }
@@ -333,7 +333,7 @@ code.hljs {
 .blogposts {
     display: grid;
     grid-column-gap: 5px;
-    grid-row-gap: 3px;
+    grid-row-gap: 2px;
     grid-template-columns: 2fr min-content;
 //    grid-template-columns: 1fr .75fr min-content 70px;
 }
@@ -366,8 +366,8 @@ code.hljs {
 
 .post-teaser__title {
 //    margin-bottom: 2px;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 550;
+    font-size: 16px;
     color: $iron;
 }
 
@@ -379,13 +379,13 @@ code.hljs {
 
 
 .post-teaser__subtitle {
-    font-size: 17px;
+    font-size: 16px;
     color: $cloudy;
 }
 
 .post-teaser__date {
 //    margin-bottom: 2px;
-    font-size: 17px;
+    font-size: 16px;
 //    float: right;
 //    vertical-align: middle;
     color: $cloudy;
