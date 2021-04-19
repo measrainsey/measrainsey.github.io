@@ -3,3 +3,4 @@ _site
 vendor/*
 .bundle/*
 .jekyll-cache/*
+cv.md
