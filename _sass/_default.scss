@@ -241,7 +241,13 @@ code.hljs {
 .social-links__entry {
     display: inline-block;
     margin-left: 10px;
+    opacity: 65%;
 }
+
+.social-links__entry:hover {
+    opacity: 100%;
+}
+
 
 /* =Post teasers */
 
