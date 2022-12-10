@@ -31,7 +31,7 @@ Accessing CAISO's data has always intimidated me -- it's probably due to the dif
 
 So, it seemed like if I wanted renewable generation data for all of 2020, I could loop through the Daily Renewables Watch report URLs for each day of the year and download the data. I created a loop that goes through each day between two specified dates, reads in the Daily Renewables Watch report for that date as a pandas dataframe, then appends the dataframe into a list of dataframes. After the loop is complete, the list of dataframes is concatenated together into a single dataframe.
 
-```python
+<!-- ```python
 import pandas as pd
 from datetime import date, datetime, timedelta
 import os
@@ -78,10 +78,11 @@ for i in range(0, dates.size):
 
 # concat the list of dataframes into one dataframe -----
 df_caiso = pd.concat(appended_dfs, axis=0, sort=False)
-```
+``` -->
 
 To get the total daily generation from each fuel source, I simply aggregated the values of all the fuel columns to the date-level. 
-```python
+
+<!-- ```python
 # rename columns ------
 df_caiso.columns= df_caiso.columns.str.lower()
 df_caiso.columns = df_caiso.columns.str.replace(' ', '_')
@@ -95,7 +96,7 @@ print('Data collection complete. Now processing data...')
 
 df_daily = df_caiso[['date', 'geothermal', 'biomass', 'biogas', 'small_hydro',
                      'wind_total', 'solar_pv', 'solar_thermal']].groupby(['date']).sum().reset_index()
-```
+``` -->
 
 
 The complete script to do all of this can be found in [this repo](https://github.com/measrainsey/caiso-renewables), under **scripts** > ``get-caiso-data.py``. The script outputs two csv files: one for all of the hourly generation combined together, and one for the daily aggregation. You can specify the dates of reports you want to pull from by specifying the ``start_date`` and ``end_date`` variables. The data from January 1, 2020 to December 31, 2020 that I used for this post is already included in the repo, under the **data** folder.  
@@ -110,45 +111,47 @@ In terms of preparing the data for plotting, I didn't have to do much. The only 
 1. Add a column for the month
 2. Calculate the average daily generation for each month (for each fuel type).
 
-Those are both easy to do in R:
-```r
+Those are both easy to do in R.
+
+<!-- ```r
 # inputs ------------
 
-  data_file = 'caiso_renewables_daily_2020-01-01_2020-12-31.csv'
+data_file = 'caiso_renewables_daily_2020-01-01_2020-12-31.csv'
   
 # load libaries ------
   
-  library(data.table)
-  library(ggplot2)
-  library(hrbrthemes)
-  library(extrafont)
+library(data.table)
+library(ggplot2)
+library(hrbrthemes)
+library(extrafont)
 
 # load data ------
   
-  dt_caiso = fread(here::here('data', data_file), header = T)
+dt_caiso = fread(here::here('data', data_file), header = T)
   
 # create column with month names ------
   
-  dt_caiso[, month := format(date, '%B')]
+dt_caiso[, month := format(date, '%B')]
   
 # find the average daily generation -------
   
-  cols = c('geothermal', 'biomass', 'biogas', 'small_hydro', 'wind_total', 'solar_pv', 'solar_thermal')
-  dt_caiso[, paste0(cols, "_mean") := lapply(.SD, mean), .SDcols = cols, by = .(month)]
+cols = c('geothermal', 'biomass', 'biogas', 'small_hydro', 'wind_total', 'solar_pv', 'solar_thermal')
+dt_caiso[, paste0(cols, "_mean") := lapply(.SD, mean), .SDcols = cols, by = .(month)]
   
 # convert integer columns to numeric ------
   
-  dt_caiso[, solar_pv := as.numeric(as.character(solar_pv))]
+dt_caiso[, solar_pv := as.numeric(as.character(solar_pv))]
   
 # reorder month levels -----
   
-  dt_caiso[, month := factor(month, levels = c('January', 'February', 'March', 'April', 'May', 'June', 'July',
-                                               'August', 'September', 'October', 'November', 'December'))]
-```
+dt_caiso[, month := factor(month, levels = c('January', 'February', 'March', 'April', 'May', 'June', 'July',
+                                              'August', 'September', 'October', 'November', 'December'))]
+``` -->
 
-As for the actual plotting, the ridgeline plots are essentially facted density plots where the y-axes have been removed, and the facets have been pushed closer together. I used the one produced by Bob Rudis on [his blog](https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/) as a guide (also his ``hrbrthemes`` package is one I constantly use when plotting to make my figures look nice). To create the wind generation ridgeline plot above, I did the following:
+As for the actual plotting, the ridgeline plots are essentially facted density plots where the y-axes have been removed, and the facets have been pushed closer together. I used the one produced by Bob Rudis on [his blog](https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/) as a guide (also his ``hrbrthemes`` package is one I constantly use when plotting to make my figures look nice). 
+<!-- To create the wind generation ridgeline plot above, I did the following: -->
 
-```r
+<!-- ```r
 # plot theme -------
 
 theme_line = theme_ipsum(base_family = 'Roboto Condensed',
@@ -188,9 +191,9 @@ fig_solar = ggplot(dt_caiso, aes(x = solar_pv/1e3, fill = solar_pv_mean)) +
     scale_x_continuous(expand = c(0,0), limits = c(0, 150), breaks = seq(0, 150, 25)) +
     scale_y_continuous(expand = c(0,0)) + 
     theme_line
-```
+``` -->
 
-Then, I created a similar plot, but for wind generation instead:
+<!-- Then, I created a similar plot, but for wind generation instead:
 ```r
 fig_wind = ggplot(dt_caiso, aes(x = wind_total/1e3, fill = wind_total_mean)) + 
     geom_density(alpha = 0.7, color = 'black', lwd = 0.1) + 
@@ -204,12 +207,10 @@ fig_wind = ggplot(dt_caiso, aes(x = wind_total/1e3, fill = wind_total_mean)) +
     scale_x_continuous(expand = c(0,0), limits = c(0, 150), breaks = seq(0, 150, 25)) +
     scale_y_continuous(expand = c(0,0)) + 
     theme_line
-```
+``` -->
 
 The full R script to create the plots (using the aggregated daily csv file from the ``get-caiso-data.py`` script as an input) can be found in [the repo](https://github.com/measrainsey/caiso-renewables), under **scripts** > ``plot-caiso-data.R``.
 
 -------
 
-<!-- ## The end -->
-
-:pushpin: -- All of the scripts needed to gather the CAISO data and create the ridgeline plots are located in this [Github repository](https://github.com/measrainsey/caiso-renewables). The repo also includes the CSV files and figure (PDF and PNG) files created by the scripts.
+:pushpin: All of the scripts needed to gather the CAISO data and create the ridgeline plots are located in this [Github repository](https://github.com/measrainsey/caiso-renewables). The repo also includes the CSV files and figure (PDF and PNG) files created by the scripts.
