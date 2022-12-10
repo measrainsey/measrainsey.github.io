@@ -2,11 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about me
+  - title: me
     entries:
-      - title: i'm an environmental engineer and energy systems researcher
-  - title: for more info
-    entries:
+      - title: about
+        url: about
       - title: email
         url: mailto:measrainsey@pm.me
       - title: linkedin
