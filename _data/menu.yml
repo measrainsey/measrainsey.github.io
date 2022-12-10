@@ -1,0 +1,20 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about
+    entries:
+      - title: i study energy systems
+      - title: github
+        url: https://github.com/measrainsey
+      - title: twitter
+        url: https://twitter.com/measrainsey
+      - title: linkedin
+        url: https://linkedin.com/in/measrainsey
+      
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: false
+      show_more_text: See archive...
+      show_more_url: archive.html
