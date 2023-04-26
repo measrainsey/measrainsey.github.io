@@ -7,8 +7,7 @@ i'm an environmental data scientist and energy systems researcher. my research i
 
 
 ### experience
-- currently: data scientist @ [invenia labs](https://www.invenia.ca/labs/)
-- previously: postdoc @ uc santa barbara ([CETLab](https://cetlab.es.ucsb.edu/) & [emLab](https://emlab.msi.ucsb.edu))
+- currently: research scholar @ [the international institute for applied systems analysis (iiasa)](https://iiasa.ac.at/)
 
 ### education
 - phd, environmental engineering @ university of southern california ([S3 research group](https://s3research.usc.edu/))
