@@ -7,13 +7,11 @@ entries:
       - title: about
         url: about
       - title: email
-        url: mailto:measrainsey@pm.me
+        url: mailto:measrainsey[at]pm.me
       - title: linkedin
         url: https://linkedin.com/in/measrainsey
       - title: github
         url: https://github.com/measrainsey
-      - title: twitter
-        url: https://twitter.com/measrainsey
   - title: blog
     post_list:
       limit: 5
