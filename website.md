@@ -1,107 +1,59 @@
-# Mizi
-## About
-###  
-This site was generated using this file: [website.md](https://raw.githubusercontent.com/AbstractXan/Mizi/master/src/website.md)
+# measrainsey meng
+## about
+### meas
+i’m an energy systems researcher and modeler. my research interests include the water-energy-climate nexus, low-carbon energy transitions, and environmental equity.
 
-[Read more](https://github.com/abstractxan/mizi) about Mizi
+### experience
+- 2023-present: research scholar @ [the international institute for applied systems analysis (iiasa)](https://iiasa.ac.at/)
+- 2021-2023: data scientist @ invenia labs
+- 2020-2021: postdoc @ uc santa barbara ([cetlab](https://cetlab.es.ucsb.edu/) & [emlab](https://emlab.ucsb.edu/))
 
-# $$$ 
-## separate
-### 
-This is a separate page
-## separate2
-###  
-This is separate page2
+### education
+- phd (2020) environmental engineering @ university of southern california ([S3 research group](https://s3research.usc.edu/))
+- ms (2018) mechanical engineering @ university of southern california
+- bs (2015) mechanical engineering @ california state university, los angeles
 
-# Features
-## HTML
-### Html &lt; p &gt; tag
-<p>This is a paragraph</p>
+## projects
 
-## Index
-### First
-Lorem Ipsum
-### Second
-Dolor sit amet
-### Third
-Consectetur adipiscing elit
-Hell!
+### technoeconomic costs tool
+- <b>status</b>: ongoing
+- <b>description</b>: a tool for projecting investment costs and fixed operational & maintenance costs of technologies. currently being used for MESSAGEix development.
+- <b>more info</b>: open-source and housed under the [message-ix-models](https://github.com/iiasa/message-ix-models) package
 
-## Unordered List
-### UL
-- First
-- Second
-- Third
-### UL Overflow Check
-- Above text should be heading 
+### CHILLED
+- <b>status</b>: ongoing
+- <b>description</b>: a model that projects the impacts of climate change on residential energy demand. currently being applied within projects at IIASA at the global level. 
+- <b>more info</b>: open-source and housed under the [message-ix-buildings](https://github.com/iiasa/message-ix-buildings) package
 
-## Links
-### Simple
-[link](https://www.abstractxan.xyz)
-### Inline
-Text [link](https://abstractxan.xyz) text
-### Multiple
-Text [link](https://abstractxan.xyz) text [link](https://abstractxan.xyz) text
-### Errors
-[broken text (https://abstractxan.xyz)
+### weather and electricity prices
+- <b>status</b>: completed
+- <b>description</b>: analysis of impacts of weather variables (such as temperature) on grid prices
 
-[broken text [text](https://abstractxan.xyz)
+### india electricity model
+- <b>status</b>: ongoing
+- <b>description</b>: india's electricity grid futures under different economic and policy scenarios.
+- <b>more info</b>: uses an open-source GIS-based multi-criteria siting tool for renewable energy called [MapRE](https://github.com/cetlab-ucsb/mapre) and an open-source electricity modeling tool called [GridPath](https://github.com/blue-marble/gridpath)
 
-[broken link](https://abstractxan.xyz [normal link](https://www.abstractxan.xyz)
+### equitably reaching net-zero within california's transportation fuel supply sector
+- <b>status</b>: ongoing
+- <b>description</b>: net-zero pathways and the impacts on health and labor for the transportation fossil fuel supply sector in california
+- <b>more info</b>: [nature energy paper](https://www.nature.com/articles/s41560-023-01259-y) published for the extraction side (along with [code base](https://github.com/emlab-ucsb/ca-transport-supply-decarb)), as well as a [report](https://zenodo.org/records/4707966#.YIBua-hKhaR) for both extraction and refining
 
-[broken link]
+### water for coal
+- <b>status</b>: completed
+- <b>description</b>: spatially-resolved life cycle water usage for coal-fired electricity production
+- <b>more info</b>: [paper published in energy technology](https://onlinelibrary.wiley.com/doi/full/10.1002/ente.201901497)
 
-[nested [links] (https://abstractxan.xyz)](https://google.com)
+### temperature and power plants
+- <b>status</b>: completed
+- <b>description</b>: ambient air temperature impacts on electricity generator efficiencies
+- <b>more info</b>: [paper published in applied energy](https://www.sciencedirect.com/science/article/pii/S0306261919311602)
 
-## Images
-### Optional alt text
-![](../media/interface/favicon.ico)
-### Single
-![image](../media/interface/favicon.ico)
-### Inline
-Text ![image](../media/interface/favicon.ico) Text
-### Multiple
-![image](../media/interface/favicon.ico) ![image](../media/interface/favicon.ico)
-### Errors
-![brokenImageText (../media/interface/favicon.ico)
-![brokenImageLink]
+### treating and using produced water
+- <b>status</b>: completed
+- <b>description</b>: spatial and cost analysis of treating and transporting produced water in california for usage
+- <b>more info</b>: [paper published in sustainability](https://www.mdpi.com/2071-1050/8/12/1318)
 
-## SeparatePages
-### 
-Separate pages are not shown on home page
-- [Separate page](separate.html)
-- [Separate page2](separate2.html)
+## [github](https://github.com/measrainsey)
 
-
-## Templates
-### Intro
-Templates are defined in [template.conf](https://raw.githubusercontent.com/AbstractXan/Mizi/master/src/template.conf) file and used in [website.md](https://raw.githubusercontent.com/AbstractXan/Mizi/master/src/website.md)
-
-### Single Line No Argument
-{{SingleLineTemplateNoArg}}
-
-### Single Line One Arg
-{{variable = asdfasf}}
-{{SingleLineTemplateOneArg var=variable }}
-{{SingleLineTemplateOneArg var=value2}}
-
-### Single Line Multiple Arg
-{{SingleLineTemplateMultipleArg var1=value1 var2=value2}}
-
-### Multi Line No Arg
-{{MultiLineTemplateNoArg}}
-
-### Multi Line One Arg
-{{MultiLineTemplateOneArg var=value1}}
-
-### Multi Line Multple Arg
-{{MultiLineTemplateMultipleArg var1=value1 var2=value2}}
-
-### Bad Syntax Examples
-- {{NonexistentTemplate}}
-- {{SingleLineTemplateNoArg} <- Wrong Syntax
-
-# {{TemplateHeader}}
-## {{TemplatePage}}
-### {{TemplateSection}}
-Text
+## [linkedin](https://linkedin.com/in/measrainsey)
